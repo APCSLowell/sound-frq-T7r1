@@ -37,7 +37,7 @@ int c=0;
   public void trimSilenceFromBeginning()
   {
 int c=0;
-  while(samples[c]==0)
+  while(c<samples.length&&samples[c]==0)
     c++;
     int cc=samples.length-c;
     int[]news=new int[cc];
