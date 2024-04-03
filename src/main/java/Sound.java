@@ -26,7 +26,7 @@ int c=0;
       }
     return c;
   }
-
+  }
 
 
   /** Removes all silence from the beginning of this sound.
