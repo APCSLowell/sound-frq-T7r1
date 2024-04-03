@@ -18,7 +18,7 @@ public class Sound
 int c=0;
     for(int i=0;i<samples.length;i++){
       if(samples[i]>limit){
-        sample[i]=limit;
+        samples[i]=limit;
         c++;
       } else if(samples[i]<(-1*limit)){
         samples[i]=(-1*limit);
@@ -37,7 +37,7 @@ int c=0;
   public void trimSilenceFromBeginning()
   {
 int c=0;
-  while(samples[i]==0)
+  while(samples[c]==0)
     c++;
     int cc=samples.length-c;
     int[]news=new int[cc];
