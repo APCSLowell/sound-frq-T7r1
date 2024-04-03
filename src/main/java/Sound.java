@@ -43,7 +43,7 @@ int c=0;
     int[]news=new int[cc];
   for(int i=0;i<cc;i++)
     news[i]=samples[i+c];
-    samples=new int[c];
-    samples=news
+    samples=new int[cc];
+    samples=news;
     }
 }
