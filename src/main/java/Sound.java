@@ -24,8 +24,9 @@ int c=0;
         samples[i]=(-1*limit);
         c++;
       }
-    return c;
   }
+        return c;
+
   }
 
 
