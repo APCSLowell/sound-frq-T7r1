@@ -43,7 +43,6 @@ int c=0;
     int cc=samples.length-c;
     int[]news=new int[cc];
   for(int i=0;i<cc;i++)
-    news[i]=samples[i+c];
     samples=news;
     }
 }
